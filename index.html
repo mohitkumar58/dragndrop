@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <title>Drag n Drop</title>
+</head>
+<body>
+    <div id="contentwrapper">
+        <div id="maincolumn">
+            <div class="text">
+                <div class="listBlock">
+                    <ul id="sortable1" class='droptrue'>
+                        <li id="1">A</li>
+                        <li id="2">B</li>
+                        <li id="3">C</li>
+                        <li id="4">D</li>
+                        <li id="5">E</li>
+                        <li id="6">F</li>
+                        <li id="7">G</li>
+                    </ul>
+                    <input type="text" id="postOrder" name="postOrder" value="" size="30" />
+                    <input type="text" id="add" name="add" value="" size="30" />
+                </div>
+                <div class="preventive">
+                    <h2>1st preventive</h2>
+                    <ul id="sortable2" class='droptrue'></ul>
+                </div>
+                <div class="preventive">
+                    <h2>2nd preventive</h2>
+                    <ul id="sortable3" class='droptrue'></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
